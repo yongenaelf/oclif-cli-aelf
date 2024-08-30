@@ -1,7 +1,7 @@
 {
   "name": "oclif-cli-aelf",
   "description": "Command-line interface for the aelf blockchain.",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "author": "Loong Yong En",
   "bin": {
     "aelf": "./bin/run.js"
