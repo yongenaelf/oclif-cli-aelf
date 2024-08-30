@@ -20,7 +20,7 @@ $ npm install -g oclif-cli-aelf
 $ aelf COMMAND
 running command...
 $ aelf (--version)
-oclif-cli-aelf/0.0.0 darwin-arm64 node-v22.4.0
+oclif-cli-aelf/0.0.0 linux-x64 node-v18.20.4
 $ aelf --help [COMMAND]
 USAGE
   $ aelf COMMAND
@@ -29,8 +29,6 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
-* [`aelf hello PERSON`](#aelf-hello-person)
-* [`aelf hello world`](#aelf-hello-world)
 * [`aelf help [COMMAND]`](#aelf-help-command)
 * [`aelf plugins`](#aelf-plugins)
 * [`aelf plugins add PLUGIN`](#aelf-plugins-add-plugin)
@@ -42,48 +40,6 @@ USAGE
 * [`aelf plugins uninstall [PLUGIN]`](#aelf-plugins-uninstall-plugin)
 * [`aelf plugins unlink [PLUGIN]`](#aelf-plugins-unlink-plugin)
 * [`aelf plugins update`](#aelf-plugins-update)
-
-## `aelf hello PERSON`
-
-Say hello
-
-```
-USAGE
-  $ aelf hello PERSON -f <value>
-
-ARGUMENTS
-  PERSON  Person to say hello to
-
-FLAGS
-  -f, --from=<value>  (required) Who is saying hello
-
-DESCRIPTION
-  Say hello
-
-EXAMPLES
-  $ aelf hello friend --from oclif
-  hello friend from oclif! (./src/commands/hello/index.ts)
-```
-
-_See code: [src/commands/hello/index.ts](https://github.com/yongenaelf/oclif-cli-aelf/blob/v0.0.0/src/commands/hello/index.ts)_
-
-## `aelf hello world`
-
-Say hello world
-
-```
-USAGE
-  $ aelf hello world
-
-DESCRIPTION
-  Say hello world
-
-EXAMPLES
-  $ aelf hello world
-  hello world! (./src/commands/hello/world.ts)
-```
-
-_See code: [src/commands/hello/world.ts](https://github.com/yongenaelf/oclif-cli-aelf/blob/v0.0.0/src/commands/hello/world.ts)_
 
 ## `aelf help [COMMAND]`
 
