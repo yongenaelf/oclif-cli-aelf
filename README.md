@@ -20,7 +20,7 @@ $ npm install -g @yongenaelf/oclif-cli-aelf
 $ aelf COMMAND
 running command...
 $ aelf (--version)
-@yongenaelf/oclif-cli-aelf/1.0.0 darwin-arm64 node-v22.4.0
+@yongenaelf/oclif-cli-aelf/2.0.0 darwin-arm64 node-v22.4.0
 $ aelf --help [COMMAND]
 USAGE
   $ aelf COMMAND
@@ -65,7 +65,7 @@ EXAMPLES
   hello friend from oclif! (./src/commands/hello/index.ts)
 ```
 
-_See code: [src/commands/hello/index.ts](https://github.com/yongenaelf/oclif-cli-aelf/blob/v1.0.0/src/commands/hello/index.ts)_
+_See code: [src/commands/hello/index.ts](https://github.com/yongenaelf/oclif-cli-aelf/blob/v2.0.0/src/commands/hello/index.ts)_
 
 ## `aelf hello world`
 
@@ -83,7 +83,7 @@ EXAMPLES
   hello world! (./src/commands/hello/world.ts)
 ```
 
-_See code: [src/commands/hello/world.ts](https://github.com/yongenaelf/oclif-cli-aelf/blob/v1.0.0/src/commands/hello/world.ts)_
+_See code: [src/commands/hello/world.ts](https://github.com/yongenaelf/oclif-cli-aelf/blob/v2.0.0/src/commands/hello/world.ts)_
 
 ## `aelf help [COMMAND]`
 
