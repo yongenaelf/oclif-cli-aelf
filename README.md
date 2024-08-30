@@ -20,7 +20,7 @@ $ npm install -g @yongenaelf/oclif-cli-aelf
 $ aelf COMMAND
 running command...
 $ aelf (--version)
-@yongenaelf/oclif-cli-aelf/2.0.0 linux-x64 node-v18.20.4
+@yongenaelf/oclif-cli-aelf/2.1.0 darwin-arm64 node-v22.4.0
 $ aelf --help [COMMAND]
 USAGE
   $ aelf COMMAND
@@ -29,6 +29,12 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
+* [`aelf audit`](#aelf-audit)
+* [`aelf build [FILE]`](#aelf-build-file)
+* [`aelf deploy [FILE]`](#aelf-deploy-file)
+* [`aelf export [FILE]`](#aelf-export-file)
+* [`aelf hello PERSON`](#aelf-hello-person)
+* [`aelf hello world`](#aelf-hello-world)
 * [`aelf help [COMMAND]`](#aelf-help-command)
 * [`aelf plugins`](#aelf-plugins)
 * [`aelf plugins add PLUGIN`](#aelf-plugins-add-plugin)
@@ -40,6 +46,140 @@ USAGE
 * [`aelf plugins uninstall [PLUGIN]`](#aelf-plugins-uninstall-plugin)
 * [`aelf plugins unlink [PLUGIN]`](#aelf-plugins-unlink-plugin)
 * [`aelf plugins update`](#aelf-plugins-update)
+
+## `aelf audit`
+
+ai audit
+
+```
+USAGE
+  $ aelf audit [-d <value>]
+
+FLAGS
+  -d, --directory=<value>  Specify a directory to list files from
+
+DESCRIPTION
+  ai audit
+
+EXAMPLES
+  $ aelf audit
+```
+
+_See code: [src/commands/audit.ts](https://github.com/yongenaelf/oclif-cli-aelf/blob/v2.1.0/src/commands/audit.ts)_
+
+## `aelf build [FILE]`
+
+describe the command here
+
+```
+USAGE
+  $ aelf build [FILE] [-f] [-n <value>]
+
+ARGUMENTS
+  FILE  file to read
+
+FLAGS
+  -f, --force
+  -n, --name=<value>  name to print
+
+DESCRIPTION
+  describe the command here
+
+EXAMPLES
+  $ aelf build
+```
+
+_See code: [src/commands/build.ts](https://github.com/yongenaelf/oclif-cli-aelf/blob/v2.1.0/src/commands/build.ts)_
+
+## `aelf deploy [FILE]`
+
+describe the command here
+
+```
+USAGE
+  $ aelf deploy [FILE] [-f] [-n <value>]
+
+ARGUMENTS
+  FILE  file to read
+
+FLAGS
+  -f, --force
+  -n, --name=<value>  name to print
+
+DESCRIPTION
+  describe the command here
+
+EXAMPLES
+  $ aelf deploy
+```
+
+_See code: [src/commands/deploy.ts](https://github.com/yongenaelf/oclif-cli-aelf/blob/v2.1.0/src/commands/deploy.ts)_
+
+## `aelf export [FILE]`
+
+describe the command here
+
+```
+USAGE
+  $ aelf export [FILE] [-f] [-n <value>]
+
+ARGUMENTS
+  FILE  file to read
+
+FLAGS
+  -f, --force
+  -n, --name=<value>  name to print
+
+DESCRIPTION
+  describe the command here
+
+EXAMPLES
+  $ aelf export
+```
+
+_See code: [src/commands/export.ts](https://github.com/yongenaelf/oclif-cli-aelf/blob/v2.1.0/src/commands/export.ts)_
+
+## `aelf hello PERSON`
+
+Say hello
+
+```
+USAGE
+  $ aelf hello PERSON -f <value>
+
+ARGUMENTS
+  PERSON  Person to say hello to
+
+FLAGS
+  -f, --from=<value>  (required) Who is saying hello
+
+DESCRIPTION
+  Say hello
+
+EXAMPLES
+  $ aelf hello friend --from oclif
+  hello friend from oclif! (./src/commands/hello/index.ts)
+```
+
+_See code: [src/commands/hello/index.ts](https://github.com/yongenaelf/oclif-cli-aelf/blob/v2.1.0/src/commands/hello/index.ts)_
+
+## `aelf hello world`
+
+Say hello world
+
+```
+USAGE
+  $ aelf hello world
+
+DESCRIPTION
+  Say hello world
+
+EXAMPLES
+  $ aelf hello world
+  hello world! (./src/commands/hello/world.ts)
+```
+
+_See code: [src/commands/hello/world.ts](https://github.com/yongenaelf/oclif-cli-aelf/blob/v2.1.0/src/commands/hello/world.ts)_
 
 ## `aelf help [COMMAND]`
 
